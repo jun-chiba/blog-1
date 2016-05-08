@@ -4,9 +4,9 @@
 
 [公式チュートリアル](https://circleci.com/docs/continuous-deployment-with-aws-codedeploy/)にそって、CircleCIとCodeDeployを使ったCD(継続的デプロイ)をやってみました。
 
-CodeDeploy単体だとS3のファイルをEC2インスタンスへデプロイするのみですが、CircleCIを利用することで自動でアプリケーションのリビジョンを作成、S3へアップロードしデプロイするところまでを自動化することが可能です。またテストの自動化も可能となります。CircleCI、CodeDeployが初めての人でもこれをやってみると雰囲気がつかめると思います。
+CodeDeploy単体だとS3のファイルをEC2インスタンスへデプロイするのみですが、CircleCIを利用することで自動でアプリケーションのリビジョンを作成、S3へアップロードしデプロイするところまでを自動化することが可能です。つまり、GitHubへのコミットをトリガーに、ビルド・テスト・デプロイまでを自動化することができます。。CircleCI、CodeDeployが初めての人でもこれをやってみると雰囲気がつかめると思います。
 
-CodeDeployって？な方は[CodeDeploy入門](http://dev.classmethod.jp/cloud/aws/cm-advent-calendar-2015-aws-re-entering-codedeploy/)が参考になると思います。
+CodeDeployを復習したい方は[CodeDeploy入門](http://dev.classmethod.jp/cloud/aws/cm-advent-calendar-2015-aws-re-entering-codedeploy/)が参考になると思います。
 
 ## AWS環境の構築
 
